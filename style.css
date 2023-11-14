@@ -3,15 +3,16 @@
     --text-color: #667085;
     --main-color: #8E2424;
 }
+
 .header__OptimusTech{
     display:flex;
     justify-content: space-between;
+    font-family: var(--fonte-principal);
 }
 
 .menu__logo{
     text-decoration: none;
     color: #3A404E;
-    font-family: var(--fonte-principal);
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -19,7 +20,6 @@
 .menu__icon{
     text-decoration: none;
     color: #3A404E;
-    font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 500;
     margin-left: 2rem;
@@ -37,6 +37,10 @@
     padding-left: 5rem;
     display: flex;
     align-items: center;
+}
+
+.logo__header{
+    padding:0 0.3rem 0.1rem 0;
 }
 
 .header__cadastro{
@@ -60,6 +64,7 @@
     justify-content: center;
     flex-direction: column;
     font-family: var(--fonte-principal);
+    gap:24px;
 }
 
 .cabecalho__descricao{
@@ -79,9 +84,77 @@
 .cabecalho__texto{
     color:#667085;
     font-size: 18px;
-    text-wrap:wrap;
+    width: 50vw;
     font-weight:400;
     line-height: 30px;
+    text-align: center;
 }
 
+.metricas-container{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--fonte-principal);
+}
 
+.metricas{
+    color: #8E2424;
+    font-size: 60px;
+    font-weight:600;
+    line-height: 72px;
+}
+
+.sub__metricas{
+    color: #101828;
+    font-size: 18px;
+    font-weight:501;
+    line-height: 28px;
+}
+
+.p__metricas{
+    font-size: 16px;
+    font-weight:400;
+    line-height: 24px;
+    inline-size: 17rem;
+
+}
+
+.procurando-talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+.icon_vagas{
+    text-decoration: none;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    height: 1.3rem;
+    width: 7.8rem;
+    color: #8E2424;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+.titulo_sec3{
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -2;
+    color:#101828;
+}
+
+.p_talentos{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2;
+    color:#667085;
+}
+
+.img_talentos{
+padding-top: 3rem;
+}
